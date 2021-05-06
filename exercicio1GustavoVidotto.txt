@@ -1,0 +1,89 @@
+package herediacaixagustavo;
+
+import java.util.Scanner;
+
+public class Herediacaixagustavo {       
+            
+         public static void main(String[] args) {
+
+                 Scanner leitor = new Scanner(System.in);
+
+                    int pedirValor;
+                    int notade1;
+                    int notade2;
+                    int notade5;
+                    int notade10;
+                    int notade20;
+                    int notade50;
+                    int notade100;
+
+                          System.out.println("Quanto o Sr(a) deseja sacar:");
+                          pedirValor  = leitor.nextInt();
+
+                             notade1 = 1;    
+                             notade2 = 2;
+                             notade5 = 5;
+                             notade10 = 10;
+                             notade20 = 20;
+                             notade50 = 50;
+                             notade100 = 100;
+
+                                if(notade100 >= notade100) {
+                                notade100 = pedirValor / 100;
+                                pedirValor = pedirValor % 100;
+                                if (notade100 != 0)
+                                System.out.println(notade100 + " notas de R$ 100,00");
+                                }
+
+                                    
+                                    if(notade50 >= notade50) {
+                                    notade50 = pedirValor / 50;
+                                    pedirValor = pedirValor % 50;
+                                    if (notade50 != 0)
+                                    System.out.println(notade50 + " notas de R$ 50,00");
+                                    }
+
+                                    
+                                         if(notade20 >= notade20) {
+                                         notade20 = pedirValor / 20;
+                                         pedirValor = pedirValor % 20;
+                                         if (notade20 != 0)
+                                         System.out.println(notade20 + " notas de R$ 20,00");
+                                         }
+
+                                               
+                                              if(notade10 >= notade10) {
+                                              notade10 = pedirValor / 10;
+                                              pedirValor = pedirValor % 10;
+                                              if (notade10 != 0)
+                                              System.out.println(notade10 + " notas de R$ 10,00");
+                                              }
+
+                                                    
+                                                    if(notade5 >= notade5) {
+                                                    notade5 = pedirValor / 5;
+                                                    pedirValor = pedirValor % 5;
+                                                    if (notade5 != 0)
+                                                    System.out.println(notade5 + " notas de R$ 5,00");
+                                                    }
+
+              
+                                                          if(notade2 >= notade2) {
+                                                          notade2 = pedirValor / 2;
+                                                          pedirValor = pedirValor % 2;
+                                                          if (notade2 != 0)
+                                                          System.out.println(notade2 + " notas de R$ 2,00");
+                                                          }
+
+                                                          
+                                                                 if(notade1 >= notade1) {
+                                                                 notade1 = pedirValor / 1;
+                                                                 pedirValor = pedirValor % 1;
+                                                                 if (notade1 != 0)
+                                                                 System.out.println(notade1 + " notas de R$ 1,00");
+        }
+
+    }
+   
+    
+}
